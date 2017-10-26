@@ -1,0 +1,685 @@
+﻿Log file open, 10/04/17 12:20:01
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BallGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-902115276) SRandInit(-902115276).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160948
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.04-10.20.01:819][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-10.20.01:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.04-10.20.01:849][  0]LogInit: Computer: W7X64
+[2017.10.04-10.20.01:849][  0]LogInit: User: maija
+[2017.10.04-10.20.01:849][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.04-10.20.01:849][  0]LogInit: High frequency timer resolution =3.233271 MHz
+[2017.10.04-10.20.01:850][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.04-10.20.01:850][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-10.20.01:850][  0]LogMemory: Process Physical Memory: 279.38 MB used, 279.38 MB peak
+[2017.10.04-10.20.01:850][  0]LogMemory: Process Virtual Memory: 284.24 MB used, 284.24 MB peak
+[2017.10.04-10.20.01:850][  0]LogMemory: Physical Memory: 5306.95 MB used,  2866.48 MB free, 8173.43 MB total
+[2017.10.04-10.20.01:850][  0]LogMemory: Virtual Memory: 659.87 MB used,  2866.48 MB free, 8388608.00 MB total
+[2017.10.04-10.20.02:010][  0]LogInit: Using OS detected language (fi-FI).
+[2017.10.04-10.20.02:010][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.10.04-10.20.02:013][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the language.
+[2017.10.04-10.20.02:014][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the locale.
+[2017.10.04-10.20.02:718][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.04-10.20.03:270][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.10.04-10.20.03:270][  0]LogD3D11RHI:       1990/0/3830 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.04-10.20.03:270][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.04-10.20.03:274][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.04-10.20.03:274][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.04-10.20.03:274][  0]LogWindows: EnumDisplayDevices:
+[2017.10.04-10.20.03:274][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.10.04-10.20.03:274][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.10.04-10.20.03:274][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.10.04-10.20.03:274][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.10.04-10.20.03:275][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.04-10.20.03:275][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.04-10.20.03:275][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.04-10.20.03:275][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.04-10.20.03:275][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.10.04-10.20.03:275][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.04-10.20.03:275][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.04-10.20.03:275][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.04-10.20.03:791][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.04-10.20.03:828][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.04-10.20.03:875][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (E:/Tiedostot/My documents/Unreal Projects/BallGame/Intermediate/Shaders/WorkingDirectory/8204/).
+[2017.10.04-10.20.03:876][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maija/AppData/Local/Temp/UnrealShaderWorkingDir/68D8E15640E390AEB6C352BFC969B34E/'.
+[2017.10.04-10.20.03:876][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.04-10.20.04:870][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.04-10.20.04:922][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.04-10.20.04:975][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.04-10.20.05:030][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.04-10.20.05:082][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.04-10.20.05:135][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.04-10.20.05:187][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.04-10.20.05:239][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.04-10.20.05:285][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.04-10.20.05:337][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.04-10.20.05:389][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.04-10.20.05:441][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.04-10.20.05:493][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.04-10.20.05:544][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.04-10.20.05:595][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.04-10.20.05:699][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.04-10.20.05:699][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.04-10.20.05:738][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.04-10.20.05:831][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.04-10.20.05:861][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.04-10.20.05:913][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.04-10.20.05:964][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.04-10.20.06:016][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.04-10.20.06:067][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.04-10.20.06:068][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.04-10.20.06:531][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/maija/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maija/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Tiedostot/My documents/Unreal Projects/BallGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Tiedostot/My documents/Unreal Projects/BallGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.04-10.20.06:628][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.04-10.20.06:649][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.04-10.20.06:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maija/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.04-10.20.06:673][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.04-10.20.06:674][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.04-10.20.06:674][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-10.20.06:674][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-10.20.06:978][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.10.04-10.20.07:170][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-10.20.07:174][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.04-10.20.07:579][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.04-10.20.07:620][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.04-10.20.07:620][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.04-10.20.07:620][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.04-10.20.07:620][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.04-10.20.07:620][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.04-10.20.07:986][  0]LogNetVersion: BallGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1423358224)
+[2017.10.04-10.20.08:171][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.017436 seconds
+[2017.10.04-10.20.08:178][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.04-10.20.08:178][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.04-10.20.08:178][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.04-10.20.08:233][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.04-10.20.10:793][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.04-10.20.10:829][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.04-10.20.11:533][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.04-10.20.11:936][  0]SourceControl: Source control is disabled
+[2017.10.04-10.20.11:936][  0]SourceControl: Source control is disabled
+[2017.10.04-10.20.11:982][  0]SourceControl: Source control is disabled
+[2017.10.04-10.20.12:027][  0]SourceControl: Source control is disabled
+[2017.10.04-10.20.12:579][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.04-10.20.12:810][  0]LogOcInput: OculusInput pre-init called
+[2017.10.04-10.20.13:059][  0]LogEngine: Initializing Engine...
+[2017.10.04-10.20.13:061][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.10.04-10.20.13:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.04-10.20.13:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.04-10.20.13:441][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.04-10.20.13:452][  0]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.20.13:458][  0]LogInit: FAudioDevice initialized.
+[2017.10.04-10.20.13:545][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/maija/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.04-10.20.13:566][  0]LogInit: Texture streaming: Enabled
+[2017.10.04-10.20.13:671][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.04-10.20.13:885][  0]LogInit: Transaction tracking system initialized
+[2017.10.04-10.20.14:206][  0]BlueprintLog: New page: Editor Load
+[2017.10.04-10.20.15:086][  0]LocalizationService: Localization service is disabled
+[2017.10.04-10.20.15:781][  0]LogConsoleResponse: Display: 
+[2017.10.04-10.20.15:972][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.04-10.20.15:972][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.04-10.20.15:972][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.04-10.20.16:024][  0]LogFileCache: Scanning file cache for directory 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/' took 0.01s
+[2017.10.04-10.20.17:017][  0]SourceControl: Source control is disabled
+[2017.10.04-10.20.17:017][  0]Cmd: MAP LOAD FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.04-10.20.17:018][  0]LightingResults: New page: Lighting Build
+[2017.10.04-10.20.17:062][  0]MapCheck: New page: Map Check
+[2017.10.04-10.20.17:062][  0]LightingResults: New page: Lighting Build
+[2017.10.04-10.20.26:765][  0]LogTexture: Display: Building textures: T_Wood_Oak_D (AutoDXT, 2048X2048)
+[2017.10.04-10.20.27:009][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.20.27:033][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.04-10.20.27:059][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.04-10.20.27:112][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.223ms to complete.
+[2017.10.04-10.20.27:112][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 10.094
+[2017.10.04-10.20.27:276][  0]LogCollectionManager: Loaded 0 collections in 0.001294 seconds
+[2017.10.04-10.20.27:363][  0]LogFileCache: Scanning file cache for directory 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Collections/' took 0.01s
+[2017.10.04-10.20.27:363][  0]LogFileCache: Scanning file cache for directory 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/Developers/maija/Collections/' took 0.01s
+[2017.10.04-10.20.27:363][  0]LogFileCache: Scanning file cache for directory 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/Collections/' took 0.01s
+[2017.10.04-10.20.27:363][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.04-10.20.27:374][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2386 classes and 500 folders.
+[2017.10.04-10.20.27:438][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.04-10.20.27:774][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.04-10.20.27:824][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.04-10.20.27:893][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-10.20.27:896][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.04-10.20.27:907][  0]LogSlate: Took 0.005117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.04-10.20.28:061][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.04-10.20.28:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.04-10.20.28:281][  0]LogLoad: (Engine Initialization) Total time: 28.16 seconds
+[2017.10.04-10.20.28:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.04-10.20.28:281][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.04-10.20.28:640][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.04-10.20.28:701][  0]LogSlate: Took 0.004656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-10.20.28:966][  1]LogAssetRegistry: Asset discovery search completed in 22.0084 seconds
+[2017.10.04-10.20.28:968][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.04-10.20.28:968][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.10.04-10.20.34:593][179]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-10.20.34:718][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.20.34:718][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-10.20.34:719][179]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 2:20:34 PM)
+[2017.10.04-10.20.34:719][179]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-10.20.34:748][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028975s)
+[2017.10.04-10.20.34:749][179]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.20.34:749][179]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.10.04-10.20.34:749][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.030201s)
+[2017.10.04-10.20.34:765][179]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.20.34:770][179]LogInit: FAudioDevice initialized.
+[2017.10.04-10.20.34:812][179]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-10.20.34:819][179]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-12.20.34
+[2017.10.04-10.20.34:820][179]LogWorld: Bringing up level for play took: 0.006556
+[2017.10.04-10.20.34:862][179]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.04-10.20.34:866][179]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.205
+[2017.10.04-10.20.34:866][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.20.43:491][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.20.43:521][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.22.57:871][191]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-10.22.58:310][191]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.04-10.22.59:183][191]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-10.22.59:273][191]LogSlate: Took 0.004863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.04-10.22.59:495][192]LogSlate: Took 0.004272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.04-10.24.41:544][371]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-10.28.42:204][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/HUD" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/HUD.uasset" SILENT=true
+[2017.10.04-10.28.42:952][143]LogSavePackage: Save=72.78ms
+[2017.10.04-10.28.42:952][143]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/HUDC107F10B4627E7169856B4B45817D703.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/HUD.uasset'
+[2017.10.04-10.28.42:980][143]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/HUD.uasset
+[2017.10.04-10.28.43:003][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/Nut" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/Nut.uasset" SILENT=true
+[2017.10.04-10.28.43:041][143]LogSavePackage: Save=30.72ms
+[2017.10.04-10.28.43:041][143]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Nut647DF3D849EC2B428F8B7290CE03801D.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/Nut.uasset'
+[2017.10.04-10.28.43:043][143]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/Nut.uasset
+[2017.10.04-10.28.43:062][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2017.10.04-10.28.43:147][143]LogSavePackage: Save=76.58ms
+[2017.10.04-10.28.43:147][143]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/PhysicsBallBPACFADBEB4BDAB04B167712858AFC9853.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2017.10.04-10.28.43:149][143]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2017.10.04-10.28.43:154][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/RollingGameMode" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/RollingGameMode.uasset" SILENT=true
+[2017.10.04-10.28.43:182][143]LogSavePackage: Save=20.80ms
+[2017.10.04-10.28.43:182][143]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/RollingGameMode75C13F5348DAE4CC9066828C935B70DC.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/RollingGameMode.uasset'
+[2017.10.04-10.28.43:184][143]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/RollingGameMode.uasset
+[2017.10.04-10.28.43:498][143]LogSavePackage: Save=220.93ms
+[2017.10.04-10.28.43:499][143]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/RollingBPExampleMap6BCB8B124EB594A04BD6709BF8E8A50A.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2017.10.04-10.28.43:502][143]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2017.10.04-10.28.43:528][143]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.340
+[2017.10.04-10.29.51:274][927]LogSlate: Took 0.004544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.04-10.31.27:481][881]BlueprintLog: New page: Compile PhysicsBallBP
+[2017.10.04-10.34.34:144][354]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-10.34.34:172][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.34.34:173][354]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-10.34.34:176][354]LogPlayLevel: [PlayLevel] Compiling Nut before play...
+[2017.10.04-10.34.35:386][354]LogPlayLevel: [PlayLevel] Compiling PhysicsBallBP before play...
+[2017.10.04-10.34.35:791][354]LogPlayLevel: [PlayLevel] Compiling Nut before play...
+[2017.10.04-10.34.35:800][354]LogPlayLevel: [PlayLevel]   Compiling HUD as a dependent...
+[2017.10.04-10.34.35:810][354]LogPlayLevel: [PlayLevel]   Compiling RollingGameMode as a dependent...
+[2017.10.04-10.34.37:175][354]LogPlayLevel: PlayLevel: Blueprint regeneration took 3001 ms (5 blueprints)
+[2017.10.04-10.34.37:175][354]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 2:34:37 PM)
+[2017.10.04-10.34.37:175][354]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-10.34.37:203][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028030s)
+[2017.10.04-10.34.37:204][354]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.34.37:204][354]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2017.10.04-10.34.37:204][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.029302s)
+[2017.10.04-10.34.37:229][354]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.34.37:234][354]LogInit: FAudioDevice initialized.
+[2017.10.04-10.34.37:267][354]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-10.34.37:273][354]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-12.34.37
+[2017.10.04-10.34.37:274][354]LogWorld: Bringing up level for play took: 0.006144
+[2017.10.04-10.34.37:275][354]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 2.186
+[2017.10.04-10.34.37:275][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.35.16:262][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.35.16:301][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.39.39:526][ 93]LogSavePackage: Save=237.85ms
+[2017.10.04-10.39.39:526][ 93]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/RollingBPExampleMap_Auto1A50E2C904F0D20330B3349B16F864EB5.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto1.umap'
+[2017.10.04-10.39.39:527][ 93]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto1.umap
+[2017.10.04-10.39.39:528][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 1.041
+[2017.10.04-10.39.39:528][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.041
+[2017.10.04-10.39.39:531][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2017.10.04-10.39.39:546][ 93]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2017.10.04-10.39.39:547][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2017.10.04-10.39.39:636][ 93]LogSavePackage: Save=80.86ms
+[2017.10.04-10.39.39:636][ 93]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/PhysicsBallBP_Auto1F545070347E8EFACFDF83BBCFF84F627.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset'
+[2017.10.04-10.39.39:663][ 93]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset
+[2017.10.04-10.39.39:663][ 93]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.10.04-10.46.23:170][234]LogEditorTransaction: Undo Modify Component(s)
+[2017.10.04-10.46.52:493][627]LogEditorTransaction: Undo Paste Component(s)
+[2017.10.04-10.50.27:284][709]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.10.04-10.50.27:288][709]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.50.27:418][709]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.50.27:457][709]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.50.27:518][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.50.34:100][ 94]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.04-10.50.34:100][ 94]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.50.34:100][ 94]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.51.18:013][948]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.18:056][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.19:711][ 27]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.19:758][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.22:709][207]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.22:755][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.26:443][373]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.26:552][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.29:841][496]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.29:888][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.30:966][552]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.31:010][552]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.32:087][611]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.32:129][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.33:307][662]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.33:386][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.38:724][955]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.38:829][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.39:699][  1]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.39:782][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.40:080][  8]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.40:123][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.40:356][ 17]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.40:410][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.41:404][ 67]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.41:451][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.46:510][377]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.04-10.51.46:510][377]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.51.46:510][377]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.51.49:544][622]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.49:584][622]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.51:153][702]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.51:200][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.52:749][768]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.52:830][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.53:414][796]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.53:465][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.54:506][850]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.54:591][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.56:184][936]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.56:228][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.51.56:684][952]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.51.56:728][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.01:960][226]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.52.02:000][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.02:790][267]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.52.02:831][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.08:236][585]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.04-10.52.08:236][585]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.52.08:236][585]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.52.09:500][692]LogMaterialEditor: Applying material BaseMaterial
+[2017.10.04-10.52.10:048][692]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.52.10:125][692]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.52.10:235][692]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.10.04-10.52.10:432][692]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BaseMaterial, compiling. 
+[2017.10.04-10.52.13:900][692]TextureStreamingBuild: Display: Compiling optional shaders took 3.475 seconds.
+[2017.10.04-10.52.20:677][993]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.04-10.52.20:677][993]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.52.20:677][993]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.52.46:801][831]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.46:888][831]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.46:905][831]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.46:946][831]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.49:008][919]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.04-10.52.49:008][919]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.52.49:008][919]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.52.52:942][237]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.52:964][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.54:524][312]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.54:547][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.55:453][364]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.55:477][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.56:257][399]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.56:276][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.57:753][487]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.52.57:773][487]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.04-10.52.59:651][595]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.04-10.52.59:651][595]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.04-10.52.59:651][595]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.04-10.53.00:841][688]LogMaterialEditor: Saving and Compiling material BasicShapeMaterial
+[2017.10.04-10.53.01:407][688]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.53.01:459][688]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.53.01:550][688]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.10.04-10.53.01:667][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.04-10.53.02:805][688]TextureStreamingBuild: Display: Compiling optional shaders took 1.145 seconds.
+[2017.10.04-10.53.06:728][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2017.10.04-10.53.06:775][688]LogSavePackage: Save=19.22ms
+[2017.10.04-10.53.06:775][688]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/BasicShapeMaterial32DACC1B4D33B94D1146F09A4AD67C7E.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2017.10.04-10.53.06:779][688]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2017.10.04-10.53.13:244][181]BlueprintLog: New page: Compile SpikeBush
+[2017.10.04-10.53.14:181][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/SpikeBush" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset" SILENT=true
+[2017.10.04-10.53.14:218][223]LogSavePackage: Save=35.16ms
+[2017.10.04-10.53.14:218][223]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/SpikeBush2B7A541C4291679FEEB0FAA51D0B7D3C.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset'
+[2017.10.04-10.53.14:220][223]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset
+[2017.10.04-10.53.54:381][333]BlueprintLog: New page: Compile SpikeBush
+[2017.10.04-10.53.55:167][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/SpikeBush" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset" SILENT=true
+[2017.10.04-10.53.55:208][363]LogSavePackage: Save=33.83ms
+[2017.10.04-10.53.55:208][363]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/SpikeBush17B3DA864A418C5EA87E0896B158B880.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset'
+[2017.10.04-10.53.55:210][363]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset
+[2017.10.04-10.53.56:702][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-10.53.56:811][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-10.53.56:886][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.04-10.54.19:370][940]Cmd: EDIT COPY
+[2017.10.04-10.54.22:480][276]Cmd: EDIT COPY
+[2017.10.04-10.54.22:950][330]Cmd: EDIT PASTE
+[2017.10.04-10.54.30:140][124]Cmd: EDIT COPY
+[2017.10.04-10.54.30:612][178]Cmd: EDIT PASTE
+[2017.10.04-10.54.32:747][395]Cmd: EDIT COPY
+[2017.10.04-10.54.33:452][476]Cmd: EDIT PASTE
+[2017.10.04-10.54.39:163][ 57]Cmd: EDIT COPY
+[2017.10.04-10.54.40:438][206]Cmd: EDIT PASTE
+[2017.10.04-10.54.43:820][551]Cmd: EDIT COPY
+[2017.10.04-10.54.44:453][623]Cmd: EDIT PASTE
+[2017.10.04-10.54.49:382][121]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-10.54.49:401][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.54.49:401][121]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-10.54.49:416][121]LogPlayLevel: [PlayLevel] Compiling PhysicsBallBP before play...
+[2017.10.04-10.54.49:909][121]LogPlayLevel: PlayLevel: Blueprint regeneration took 508 ms (1 blueprints)
+[2017.10.04-10.54.49:909][121]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 2:54:49 PM)
+[2017.10.04-10.54.49:909][121]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-10.54.49:940][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030195s)
+[2017.10.04-10.54.49:940][121]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.54.49:941][121]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.10.04-10.54.49:941][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031426s)
+[2017.10.04-10.54.49:962][121]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.54.49:967][121]LogInit: FAudioDevice initialized.
+[2017.10.04-10.54.49:995][121]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-10.54.50:005][121]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-12.54.50
+[2017.10.04-10.54.50:007][121]LogWorld: Bringing up level for play took: 0.011675
+[2017.10.04-10.54.50:008][121]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.895
+[2017.10.04-10.54.50:009][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.55.20:980][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.55.21:018][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.57.07:416][916]LogSavePackage: Save=290.84ms
+[2017.10.04-10.57.07:416][916]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/RollingBPExampleMap_Auto233DB7EE3425D41F4DA1B59B734086CD4.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto2.umap'
+[2017.10.04-10.57.07:417][916]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto2.umap
+[2017.10.04-10.57.07:419][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 0.907
+[2017.10.04-10.57.07:419][916]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.907
+[2017.10.04-10.57.07:420][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2017.10.04-10.57.07:436][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2017.10.04-10.57.07:436][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2017.10.04-10.57.07:526][916]LogSavePackage: Save=81.79ms
+[2017.10.04-10.57.07:526][916]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/PhysicsBallBP_Auto2DFBC04EC482549E7CBF5D8A3AB06523E.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto2.uasset'
+[2017.10.04-10.57.07:548][916]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto2.uasset
+[2017.10.04-10.57.07:548][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Rolling/Materials/BaseMaterial] ([1] browsable assets)...
+[2017.10.04-10.57.07:564][916]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Rolling/Materials/BaseMaterial.BaseMaterial]
+[2017.10.04-10.57.07:564][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Rolling/Materials/BaseMaterial]
+[2017.10.04-10.57.07:589][916]LogSavePackage: Save=18.38ms
+[2017.10.04-10.57.07:590][916]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/BaseMaterial_Auto2CD67BB8246B894AD4662ECA5A1DCF99E.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/Rolling/Materials/BaseMaterial_Auto2.uasset'
+[2017.10.04-10.57.07:590][916]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/Rolling/Materials/BaseMaterial_Auto2.uasset
+[2017.10.04-10.57.07:590][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/SpikeBush] ([1] browsable assets)...
+[2017.10.04-10.57.07:606][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/SpikeBush.SpikeBush]
+[2017.10.04-10.57.07:606][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/SpikeBush]
+[2017.10.04-10.57.07:647][916]LogSavePackage: Save=37.59ms
+[2017.10.04-10.57.07:647][916]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/SpikeBush_Auto27F82362648A4B7AB2F78699403123E55.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/SpikeBush_Auto2.uasset'
+[2017.10.04-10.57.07:648][916]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/Autosaves/Game/RollingBP/Blueprints/SpikeBush_Auto2.uasset
+[2017.10.04-10.57.07:648][916]LogFileHelpers: Auto-saving content packages took 0.228
+[2017.10.04-10.58.06:298][998]BlueprintLog: New page: Compile SpikeBush
+[2017.10.04-10.58.08:878][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/SpikeBush" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset" SILENT=true
+[2017.10.04-10.58.08:920][128]LogSavePackage: Save=39.21ms
+[2017.10.04-10.58.08:920][128]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/SpikeBush35B1DD81453771A344D85E8634CE56D3.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset'
+[2017.10.04-10.58.08:926][128]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/SpikeBush.uasset
+[2017.10.04-10.58.12:657][436]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-10.58.12:672][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.58.12:672][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-10.58.12:672][436]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 2:58:12 PM)
+[2017.10.04-10.58.12:672][436]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-10.58.12:704][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031143s)
+[2017.10.04-10.58.12:704][436]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.58.12:705][436]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2017.10.04-10.58.12:705][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.032411s)
+[2017.10.04-10.58.12:732][436]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.58.12:737][436]LogInit: FAudioDevice initialized.
+[2017.10.04-10.58.12:764][436]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-10.58.12:774][436]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-12.58.12
+[2017.10.04-10.58.12:776][436]LogWorld: Bringing up level for play took: 0.011234
+[2017.10.04-10.58.12:777][436]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.341
+[2017.10.04-10.58.12:777][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.58.14:946][690]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.16:521][879]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.18:729][144]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.25:073][905]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.30:473][551]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.35:098][106]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.58.36:882][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.58.36:932][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.59.25:096][381]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-10.59.25:110][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.59.25:110][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-10.59.25:110][381]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 2:59:25 PM)
+[2017.10.04-10.59.25:110][381]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-10.59.25:141][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030658s)
+[2017.10.04-10.59.25:142][381]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-10.59.25:142][381]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.10.04-10.59.25:142][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031880s)
+[2017.10.04-10.59.25:166][381]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-10.59.25:170][381]LogInit: FAudioDevice initialized.
+[2017.10.04-10.59.25:201][381]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-10.59.25:210][381]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-12.59.25
+[2017.10.04-10.59.25:212][381]LogWorld: Bringing up level for play took: 0.011172
+[2017.10.04-10.59.25:214][381]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.094
+[2017.10.04-10.59.25:214][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.59.29:557][896]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.59.32:265][220]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.59.35:674][629]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.59.38:374][953]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.59.40:802][244]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-10.59.43:178][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-10.59.43:231][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.03.12:512][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2017.10.04-11.03.12:614][339]LogSavePackage: Save=85.79ms
+[2017.10.04-11.03.12:614][339]LogSavePackage: Moving 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Saved/PhysicsBallBP02778DA1463E893B7A2A7D92499678CF.tmp' to 'E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2017.10.04-11.03.12:619][339]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/Unreal Projects/BallGame/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2017.10.04-11.03.59:527][937]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-11.03.59:542][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.03.59:542][937]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-11.03.59:558][937]LogPlayLevel: [PlayLevel] Compiling SpikeBush before play...
+[2017.10.04-11.03.59:563][937]LogPlayLevel: [PlayLevel]   Compiling PhysicsBallBP as a dependent...
+[2017.10.04-11.04.00:751][937]LogPlayLevel: PlayLevel: Blueprint regeneration took 1208 ms (2 blueprints)
+[2017.10.04-11.04.00:751][937]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 3:04:00 PM)
+[2017.10.04-11.04.00:751][937]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-11.04.00:789][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037815s)
+[2017.10.04-11.04.00:790][937]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-11.04.00:790][937]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2017.10.04-11.04.00:790][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.039189s)
+[2017.10.04-11.04.00:815][937]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-11.04.00:821][937]LogInit: FAudioDevice initialized.
+[2017.10.04-11.04.00:852][937]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-11.04.00:862][937]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-13.04.00
+[2017.10.04-11.04.00:865][937]LogWorld: Bringing up level for play took: 0.012349
+[2017.10.04-11.04.00:866][937]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 1.742
+[2017.10.04-11.04.00:867][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.04.03:281][214]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-11.04.06:781][634]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 3
+[2017.10.04-11.04.08:240][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.04.08:297][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.05.06:281][860]BlueprintLog: New page: Compile PhysicsBallBP
+[2017.10.04-11.05.10:643][101]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-11.05.10:658][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.05.10:658][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-11.05.10:658][101]PIE: New page: PIE session: RollingBPExampleMap (Oct 4, 2017, 3:05:10 PM)
+[2017.10.04-11.05.10:658][101]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.04-11.05.10:690][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031493s)
+[2017.10.04-11.05.10:690][101]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.04-11.05.10:691][101]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2017.10.04-11.05.10:691][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.032675s)
+[2017.10.04-11.05.10:716][101]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.04-11.05.10:721][101]LogInit: FAudioDevice initialized.
+[2017.10.04-11.05.10:749][101]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.04-11.05.10:759][101]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.04-13.05.10
+[2017.10.04-11.05.10:761][101]LogWorld: Bringing up level for play took: 0.011315
+[2017.10.04-11.05.10:763][101]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.364
+[2017.10.04-11.05.10:763][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.05.13:214][387]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 2
+[2017.10.04-11.05.15:322][640]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 1
+[2017.10.04-11.05.18:631][ 37]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2017.10.04-11.05.21:254][351]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1
+[2017.10.04-11.05.23:065][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.05.23:115][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.04-11.07.26:425][125]LogEditorTransaction: Undo Set actor scale
+[2017.10.04-11.07.26:592][125]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.162 s
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: 
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: 
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: Stack: 
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE303606
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE08C2D2
+[2017.10.04-11.07.26:592][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE0A4746
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6DC4312
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6D7301F
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000D10C7AFE
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000D10B3EF9
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000D105619B
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000D105AF77
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9BD9E90
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9BCEBC1
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9B9D857
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9B9FA27
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9C3A227
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9A5725A
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9A57D7D
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D99F6E74
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D4537714
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D419AA19
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D41287BC
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D412D4BC
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D451F899
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D44C131B
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D44C4FEA
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D44C3317
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D452561C
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D40D3E00
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D4155F0D
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D41A6F7D
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6D73CC6
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6D9A512
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6D82F99
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6D838CB
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6DE6D2B
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D6E2DD8F
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D4128E51
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D412DBB6
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D99F7DD0
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9A36850
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D75C484E
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D75B020F
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D99E4761
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D99B60BE
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D99B7CC6
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9A380B7
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D9A29B18
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE2DB108
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE2C3B51
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE2DD22B
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE2BECB2
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: USER32.dll!0x0000000077509BBD
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: USER32.dll!0x00000000775098C2
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000DE2DD936
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor.exe!0x000000003FA94BE2
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor.exe!0x000000003FAA3970
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor.exe!0x000000003FAA39EA
+[2017.10.04-11.07.26:593][125]LogOutputDevice: Error: UE4Editor.exe!0x000000003FAB02D9
+[2017.10.04-11.07.26:594][125]LogOutputDevice: Error: UE4Editor.exe!0x000000003FAB1C47
+[2017.10.04-11.07.26:594][125]LogOutputDevice: Error: kernel32.dll!0x00000000776059CD
+[2017.10.04-11.07.26:594][125]LogOutputDevice: Error: ntdll.dll!0x000000007773A561
+[2017.10.04-11.07.26:594][125]LogOutputDevice: Error: 
+[2017.10.04-11.07.26:600][125]LogStats:                SubmitErrorReport -  0.000 s
